@@ -1,0 +1,143 @@
+.main {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  height: 700px;
+  background: url(http://shapebootstrap.net/demo/html/evento/images/slider/bg2.jpg);
+  padding: 10px; }
+  .header .icon {
+    color: white; }
+  .header .logo {
+    background: #268AAB;
+    height: 70px;
+    padding-bottom: 10px; }
+  .header .menu {
+    position: fixed-top;
+    background: #268AAB;
+    height: 70px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px; }
+    .header .menu a {
+      color: white; }
+  .header .register {
+    margin-top: 100px;
+    background: black;
+    color: white;
+    height: 180px;
+    width: 300px; }
+
+.time {
+  height: 400px;
+  background: url(http://awesomewallpaper.files.wordpress.com/2011/02/sonica-orange-1920x1200.png);
+  padding-top: 20px; }
+  .time h1 {
+    text-decoration-color: white; }
+  .time span {
+    color: white; }
+  .time .days {
+    height: 70px;
+    width: 70px;
+    border-radius: 10%;
+    display: inline-block;
+    line-height: 5;
+    color: white;
+    text-align: center;
+    background: #28A654; }
+  .time .hours {
+    height: 70px;
+    width: 70px;
+    border-radius: 10%;
+    display: inline-block;
+    line-height: 5;
+    color: white;
+    text-align: center;
+    background: #EDEA21; }
+  .time .minutes {
+    height: 70px;
+    width: 70px;
+    border-radius: 10%;
+    display: inline-block;
+    line-height: 5;
+    color: white;
+    text-align: center;
+    background: orange; }
+  .time .seconds {
+    height: 70px;
+    width: 70px;
+    border-radius: 10%;
+    display: inline-block;
+    line-height: 5;
+    color: white;
+    text-align: center;
+    background: #DB6556; }
+  .time .next_event {
+    margin-top: 100px; }
+  .time .time_box {
+    margin-top: 100px; }
+
+.rocking_performers {
+  padding: 20px;
+  padding-left: 30px;
+  background: url(http://wallpaperswide.com/download/polygon_green-wallpaper-1366x768.jpg);
+  height: 530px; }
+  .rocking_performers h3, .rocking_performers h4, .rocking_performers h5 {
+    color: white; }
+
+.about_evento {
+  background: url(http://shapebootstrap.net/demo/html/evento/images/about-bg.jpg);
+  height: 400px;
+  background-size: cover; }
+  .about_evento img {
+    width: 600px;
+    height: 400px; }
+  .about_evento .view_button {
+    background: #40940A; }
+  .about_evento h4, .about_evento p {
+    color: white; }
+
+.bird {
+  background: url("http://shapebootstrap.net/demo/html/evento/images/twitter-bg.jpg");
+  height: 350px;
+  text-align: center;
+  padding: 20px;
+  padding-left: 0; }
+
+.sponsors {
+  background: url(http://shapebootstrap.net/demo/html/evento/images/sponsor-bg.jpg);
+  height: 400px;
+  padding: 20px; }
+  .sponsors h4 {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    color: white;
+    font-family: sans-serif; }
+  .sponsors .col-md-4 {
+    margin-bottom: 20px;
+    vertical-align: middle; }
+  .sponsors .mikrofon {
+    width: 400px;
+    height: inherit; }
+
+.map {
+  height: 400px; }
+
+.contact {
+  background-color: #f7ab24;
+  height: 510px;
+  background-image: url("http://shapebootstrap.net/demo/html/evento/images/contact-bg.jpg");
+  background-position: 60% 0;
+  background-size: contain;
+  background-repeat: no-repeat; }
+  .contact img {
+    width: 484px;
+    height: 506px; }
+
+.footer {
+  background: url(http://shapebootstrap.net/demo/html/evento/images/footer-bg.jpg);
+  height: 100px;
+  text-align: center; }
+  .footer p {
+    color: white; }

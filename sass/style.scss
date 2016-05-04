@@ -1,0 +1,157 @@
+﻿@mixin commonDude{
+	height: 70px;
+	width: 70px;
+	border-radius: 10%;
+	display: inline-block;
+	line-height: 5;
+	color: white;
+	text-align: center;
+}
+.main{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: 700px;
+	background: url(http://shapebootstrap.net/demo/html/evento/images/slider/bg2.jpg);
+	padding: 10px;
+	.icon{
+		color: white;
+	}
+	.logo{
+		background: #268AAB;
+		height: 70px;
+		padding-bottom: 10px;
+	}
+	.menu{
+		position: fixed-top;
+		background: #268AAB;
+		height: 70px;
+		color: white;
+		padding: 10px;
+		text-align: center;
+		font-size: 18px;
+		a{
+			color: white;
+		}
+	}
+	.register{
+		margin-top: 100px;
+		background: black;
+		color: white;
+		height: 180px;
+		width: 300px;
+	}
+}
+.time{
+	height: 400px;
+	background: url(http://awesomewallpaper.files.wordpress.com/2011/02/sonica-orange-1920x1200.png) ;
+	padding-top: 20px;
+	img{
+	}
+	h1{
+		
+		text-decoration-color: white;
+	}
+	span{
+		color: white;
+	}
+	.days{
+		@include commonDude;
+		background: #28A654;
+	}
+	.hours{
+		@include commonDude;
+		background: #EDEA21;
+	}
+	.minutes{
+		@include commonDude;
+		background: orange;
+	}
+	.seconds{
+		@include commonDude;
+		background: #DB6556;
+	}
+	.next_event{
+		margin-top: 100px;
+	}
+	.time_box{
+		margin-top: 100px;
+	}
+}
+.rocking_performers{
+	padding: 20px;
+	padding-left: 30px;
+	 background: url(http://wallpaperswide.com/download/polygon_green-wallpaper-1366x768.jpg);
+	 height: 530px;
+ 	img{
+	
+}
+	h3, h4, h5{
+		color: white;
+	}
+}
+.about_evento{
+	background: url(http://shapebootstrap.net/demo/html/evento/images/about-bg.jpg);
+	height: 400px;
+	background-size: cover;
+	img{
+		width: 600px;
+		height: 400px;
+	}
+	.view_button{
+		background: #40940A;
+	}
+	h4,p{
+		color: white;
+	}
+}
+.bird{
+	background: url("http://shapebootstrap.net/demo/html/evento/images/twitter-bg.jpg");
+	height: 350px;
+	text-align: center;
+	padding: 20px;
+	padding-left: 0;
+}
+.sponsors{
+	background: url(http://shapebootstrap.net/demo/html/evento/images/sponsor-bg.jpg);
+	height: 400px;
+	padding: 20px;
+	h4{
+	margin-top: 90px;
+    margin-bottom: 40px;
+    color: white;
+    font-family: sans-serif;
+	}
+	.col-md-4{
+		margin-bottom: 20px;
+		vertical-align: middle;
+	}
+	.mikrofon{
+		width: 400px;
+		height: inherit;
+	}
+}
+.map{
+	height: 400px;
+}
+.contact{
+	background-color: #f7ab24;
+	height: 510px;
+    background-image: url("http://shapebootstrap.net/demo/html/evento/images/contact-bg.jpg");
+    background-position: 60% 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    img{
+    	width: 484px;
+    	height: 506px;
+    }
+}
+.footer{
+	background: url(http://shapebootstrap.net/demo/html/evento/images/footer-bg.jpg);
+	height: 100px;
+	text-align: center;
+	p{
+		color: white;
+	}
+}
